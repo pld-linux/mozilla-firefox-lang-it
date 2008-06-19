@@ -2,12 +2,12 @@
 Summary:	Italian resources for Mozilla-firefox
 Summary(pl.UTF-8):	Włoskie pliki językowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	2.0.0.14
+Version:	3.0
 Release:	1
 License:	GPL
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	330ea0a5385e6f61c7d40d044f5d9f9a
+# Source0-md5:	e1b04c2b0b121fb8f9ae03d676876bb5
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
