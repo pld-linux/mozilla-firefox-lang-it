@@ -1,13 +1,13 @@
 %define		_lang		it
-Summary:	Italian resources for Mozilla-firefox
-Summary(pl.UTF-8):	Włoskie pliki językowe dla Mozilli-firefox
+Summary:	Italian resources for Firefox
+Summary(pl.UTF-8):	Włoskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	067462db2beb69af90b4acd2f445f841
+# Source0-md5:	25eb699f7c6d996747b5820c8732b67a
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Italian resources for Mozilla-firefox.
+Italian resources for Firefox.
 
 %description -l pl.UTF-8
-Włoskie pliki językowe dla Mozilli-firefox.
+Włoskie pliki językowe dla Firefoksa.
 
 %prep
 
