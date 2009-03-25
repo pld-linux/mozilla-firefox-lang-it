@@ -2,12 +2,12 @@
 Summary:	Italian resources for Firefox
 Summary(pl.UTF-8):	Włoskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.7
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	25eb699f7c6d996747b5820c8732b67a
+# Source0-md5:	c2da3478eb3fdb5b7b4c4e115c101795
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
